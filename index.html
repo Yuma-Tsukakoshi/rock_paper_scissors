@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rock-paper-scissor</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <section class="game">
+    <div class="scores">
+      <div class="player-score">
+        <h2 class="player-score-title">Player</h2>
+        <p class="js-player-score">0</p>
+      </div>
+      <div class="computer-score">
+        <h2 class="computer-score">Computer</h2>
+        <p class="js-computer-score">0</p>
+      </div>
+    </div>
+
+    <div class="top-hero">
+      <h1 class="game-title">Rock Paper and Scissors</h1>
+      <button class="start-button" id="js-startButton">Let's Play</button>
+    </div>
+  </section>
+
+  <section class="fight">
+    <h2 class="fight-title">Choose an option</h2>
+    <div class="kind-hands">
+      <img src="./assets/img/rock.png" class="player-hand">
+      <img src="./assets/img/rock.png" class="computer-hand">
+    </div>
+    <div class="options">
+      <button class="rock">rock</button>
+      <button class="paper">paper</button>
+      <button class="scissors">scissors</button>
+    </div>
+  </section>
+</body>
+</html>
